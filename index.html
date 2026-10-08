@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NIRA TOURS & TRAVELS — Premium & Luxury Travel Experiences</title>
+    <meta name="description" content="Discover extraordinary places, bespoke itineraries, and unforgettable travel experiences across India and international destinations." />
+    
+    <!-- Google Fonts: Plus Jakarta Sans & Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              navy: {
+                DEFAULT: '#174A3A',
+                dark: '#0E3327',
+                light: '#1F5E4A'
+              },
+              cream: {
+                DEFAULT: '#F8F4EC',
+                warm: '#F3EDE2',
+                card: '#FFFFFF'
+              },
+              saffron: {
+                DEFAULT: '#E7A92B',
+                deep: '#D4941D'
+              },
+              coral: {
+                DEFAULT: '#087F8C',
+                bright: '#066772'
+              },
+              ocean: {
+                DEFAULT: '#087F8C',
+                light: '#209FB0'
+              }
+            },
+            fontFamily: {
+              serif: ['"Plus Jakarta Sans"', 'Inter', 'sans-serif'],
+              sans: ['"Plus Jakarta Sans"', 'Inter', 'system-ui', 'sans-serif']
+            }
+          }
+        }
+      }
+    </script>
+  </head>
+  <body class="bg-[#F8F4EC] text-[#174A3A] font-sans antialiased selection:bg-[#E7A92B] selection:text-[#174A3A] overflow-x-hidden">
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
